@@ -1,4 +1,4 @@
-const VOTE_URL = 'https://minecraft-mp.com/server/268676/vote?username=';
+const VOTE_URL = 'https://minecraft-mp.com/server/268676/vote?alternate_captcha=1&username=';
 
 const getName = async () => {
   const response = await fetch('https://randomuser.me/api/');
